@@ -6,6 +6,12 @@
 [Документация по работе с новыми весиями llama.cpp](https://dzen.ru/a/aK6m7LtcORy66-Po)
 
 ## Запуск инструмента анализа вероятности следующего токена:
+* Скачать [релиз](https://github.com/no4ni/llama.cpp/releases)
+* Разархивировать
+* Запустить через cmd или Windows Terninal (для UTF-8)? например:
+  ```
+  prediction-next-token -m "models\llama-3.2-1B-q4_k_m-128k.gguf" -p "Who invented E=mc^2?" -h "Einstein"
+  ```
 
 ## Quick start
 
