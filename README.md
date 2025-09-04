@@ -23,6 +23,17 @@ cd llama.cpp
 ```
 mkdir build
 cd build
+```
+* Для простого проекта на СPU
+```
 cmake .. -G "Visual Studio 17 2022" -A x64 -DGGML_CUDA=OFF -DLLAMA_CURL=OFF -DLLAMA_BUILD_COMMON=ON -DLLAMA_BUILD_EXAMPLES=ON
 ```
+* Для поддержки GPU
+```
+cmake .. -G "Visual Studio 17 2022" -A x64 -DGGML_CUDA=ON -DLLAMA_CURL=OFF -DLLAMA_BUILD_COMMON=ON -DLLAMA_BUILD_EXAMPLES=ON
+```
 В **llama.cpp/build** появится **llama.cpp.sln**
+
+## Тестовая русская нейросеть
+Можно скачать [отсюда](https://huggingface.co/Vikhrmodels/Vikhr-Llama-3.2-1B-instruct-GGUF) 
+(Для VRAM 4GB и RAM 8GB рекомендуется Vikhr-Llama-3.2-1B-Q4_K_M.gguf 808 МБ и ставить -c 65536 вместо максимума)
