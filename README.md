@@ -19,7 +19,7 @@
 git clone https://github.com/no4ni/llama.cpp
 cd llama.cpp
 ```
-2. Для VS2022:
+2. Для VS2022 на Windows: (для остального инструкции [здесь](https://github.com/no4ni/llama.cpp/blob/main/docs/build.md))
 ```
 mkdir build
 cd build
