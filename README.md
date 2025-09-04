@@ -1,4 +1,4 @@
-# Форк llama.cpp (работа, в основном инференс, с LLM в формате .gguf на C/C++) чтобы создать на его основе инструмент обучения нейросетей 
+# Форк llama.cpp (работа, в основном инференс, с LLM в формате .gguf на C/C++) чтобы создать на его основе инструмент обучения нейросетей на ограниченном оборудовании
 [ReadMe оригинала](https://github.com/ggml-org/llama.cpp/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
