@@ -37,7 +37,7 @@ const char * Utf8FromUtf16(const wchar_t * wstr) {
     return buffer;  // caller должен вызвать free()
 }
 
-int wmain(int argc, wchar_t * argv[]) {
+static int wmain(int argc, wchar_t * argv[]) {
     SetConsoleOutputCP(CP_UTF8);
     SetConsoleCP(CP_UTF8);
     // Установка значений по умолчанию
@@ -84,7 +84,7 @@ int wmain(int argc, wchar_t * argv[]) {
     // 2) context
     llama_context_params ctx_params = llama_context_default_params();
     ctx_params.n_ctx                = 512;
-    llama_context * ctx             = llama_init_from_model(model, ctx_params);
+    llama_context * ctx             = llama_new_context_with_model(model, ctx_params);
     if (!ctx) {
         fprintf(stderr, "failed to create context\n");
         llama_model_free(model);
