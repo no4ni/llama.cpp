@@ -1,9 +1,9 @@
 # Форк llama.cpp (работа, в основном инференс, с LLM в формате .gguf на C/C++) чтобы создать на его основе инструмент обучения нейросетей 
-ReadMe llama.cpp: [https://github.com/ggml-org/llama.cpp/blob/master/README.md]
+[ReadMe оригинала](https://github.com/ggml-org/llama.cpp/blob/master/README.md)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Изменения в llama.cpp с 2024 года
-[https://dzen.ru/a/aK6m7LtcORy66-Po](документация по работе с новыми весиями llama.cpp)
+[Документация по работе с новыми весиями llama.cpp](https://dzen.ru/a/aK6m7LtcORy66-Po)
 
 ## Запуск инструмента анализа вероятности следующего токена:
 
